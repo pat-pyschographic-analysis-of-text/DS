@@ -47,6 +47,7 @@ profile = personality_insights.profile(
           consumption_preferences=True,
           raw_scores=True).get_result()
 
+# Returning profile without json.dump might be a better option
 profile = json.dumps(profile, indent=2)
 
 @app.route('/')
