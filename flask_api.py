@@ -19,6 +19,9 @@ twitter_user = TWITTER.user_timeline(screen_name='austen',
 
 favorites = TWITTER.favorites('austen',count=100)
 
+t = []
+for i in twitter_user: t.append(i.created_at)
+
 def convert_status_to_pi_content_item(t,f):
             return {
                 'content': t.full_text + f.text,
