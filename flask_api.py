@@ -48,7 +48,7 @@ profile = personality_insights.profile(
           raw_scores=True).get_result()
 
 # Returning profile without json.dump might be a better option
-profile = json.dumps(profile, indent=2)
+# profile = json.dumps(profile, indent=2)
 
 @app.route('/')
 def hello_world():
