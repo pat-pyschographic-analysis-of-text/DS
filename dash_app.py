@@ -12,16 +12,7 @@ import pandas as pd
 import time
 
 # Credentials for APIs and auth callers
-TWITTER_CONSUMER_KEY="1wKYaitEhrElIXVsZKXxyePfW"
-TWITTER_CONSUMER_SECRET="5sSg4Kgqk2r5O4d5XxqFiim4gWt6dOiHnJVGlm9wzZt1daqjlP"
-TWITTER_ACCESS_TOKEN="1082776925767122944-hcaROCH3H2tP8K9rHC1vgxYImf6rm5"
-TWITTER_ACCESS_TOKEN_SECRET="fbPhtbtpq1PEK86srvlBwDB6gZGgPfrYboKpJ3aRHUAp7"
-pi_url = "https://gateway-wdc.watsonplatform.net/personality-insights/api"
-pi_username = 'apikey'
-pi_password = 'L7Yqla5hiW5T2UjH82fDQDNlcMjsoBhLd2UE7BiRd2r2'
-TWITTER_AUTH = tweepy.OAuthHandler(TWITTER_CONSUMER_KEY,TWITTER_CONSUMER_SECRET)
-TWITTER_AUTH.set_access_token(TWITTER_ACCESS_TOKEN,TWITTER_ACCESS_TOKEN_SECRET)
-TWITTER = tweepy.API(TWITTER_AUTH)
+# Insert respective credential vars here
 
 # Placeholder data
 # df = pd.read_csv('austen_with_time.csv')
